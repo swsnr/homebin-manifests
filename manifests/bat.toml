@@ -1,0 +1,18 @@
+[info]
+name = "bat"
+version = "0.15.4"
+url = "https://github.com/sharkdp/bat"
+
+[discover]
+binary = "bat"
+version_check.args = ["--version"]
+version_check.pattern = "bat (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-v0.15.4-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "0ca4f4600502f48ca9624b94f877d0b76239367c864182c0ada6ebf7a455f543b685479c0025d441caecd43ca7f5bccdafc2d5300282d4afa2be75b8649a4a25"
+files = [
+    { source = "bat-v0.15.4-x86_64-unknown-linux-musl/bat", type = "bin" },
+    { source = "bat-v0.15.4-x86_64-unknown-linux-musl/bat.1", type = "manpage", section = 1 },
+    { source = "bat-v0.15.4-x86_64-unknown-linux-musl/autocomplete/bat.fish", type = "completion", shell = "fish" }
+]
