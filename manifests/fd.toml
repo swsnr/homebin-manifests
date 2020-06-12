@@ -1,0 +1,18 @@
+[info]
+name = "fd"
+version = "8.1.1"
+url = "https://github.com/sharkdp/fd"
+
+[discover]
+binary = "fd"
+version_check.args = ["--version"]
+version_check.pattern = "fd (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/sharkdp/fd/releases/download/v8.1.1/fd-v8.1.1-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "6282bd0a7e4eea71a142a1e2da671d3312f9e9c3e3cdad6f9014d145247f5bbed005f9f384d8acf32f0118961c5f7bd1639c2500d82a97d75070f5575dc008a1"
+files = [
+    { source = "fd-v8.1.1-x86_64-unknown-linux-musl/fd", type = "bin"},
+    { source = "fd-v8.1.1-x86_64-unknown-linux-musl/fd.1", type = "manpage", section = 1 },
+    { source = "fd-v8.1.1-x86_64-unknown-linux-musl/autocomplete/fd.fish", type = "completion", shell = "fish" },
+]
