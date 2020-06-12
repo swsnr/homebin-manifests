@@ -2,6 +2,7 @@
 name = "nnn"
 version = "3.2"
 url = "https://github.com/jarun/nnn"
+license = "BSD-2-Clause"
 
 [discover]
 binary = "nnn"

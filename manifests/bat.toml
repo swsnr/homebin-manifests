@@ -2,6 +2,7 @@
 name = "bat"
 version = "0.15.4"
 url = "https://github.com/sharkdp/bat"
+license = "MIT OR Apache-2.0"
 
 [discover]
 binary = "bat"

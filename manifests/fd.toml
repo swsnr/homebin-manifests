@@ -2,6 +2,7 @@
 name = "fd"
 version = "8.1.1"
 url = "https://github.com/sharkdp/fd"
+license = "MIT OR Apache-2.0"
 
 [discover]
 binary = "fd"
