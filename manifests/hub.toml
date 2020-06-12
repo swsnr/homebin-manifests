@@ -6,7 +6,7 @@ url = "https://github.com/github/hub"
 [discover]
 binary = "hub"
 version_check.args = ["--version"]
-version_check.pattern = "(?m)hub version ([0-9.]+)$"
+version_check.pattern = "hub version (\\d\\S+)"
 
 [[install]]
 download = "https://github.com/github/hub/releases/download/v2.14.2/hub-linux-amd64-2.14.2.tgz"
