@@ -1,0 +1,23 @@
+[info]
+name = "youtube-dl"
+version = "2020.06.06"
+url = "https://github.com/ytdl-org/youtube-dl"
+license = "Unlicense"
+
+[discover]
+binary = "youtube-dl"
+version_check.args = ["--version"]
+version_check.pattern = "(\\d\\S+)"
+
+[[install]]
+download = "https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.06/youtube-dl"
+checksums.b2 = "735247ea043fb8433a18844d29bebd72202d75ae9433a7fe1d51d5af65a24cb43d7a09900bbe397017940015ed5b8910f7536c7ed496a4518ab48e1522eab25d"
+type = "bin"
+
+[[install]]
+download = "https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.06/youtube-dl-2020.06.06.tar.gz"
+checksums.b2 = "0971a8f82eedf3dc6a635b90318586988ffc8a8219386e0eda8ca020fb9981ceabb4b708c0d90c38f5eab2c17daa98d73cead473e33a1ed27b726a087d9a57f7"
+files = [
+    { source = "youtube-dl/youtube-dl.1", type = "man", section = 1 },
+    { source = "youtube-dl/youtube-dl.fish", type = "completion", shell = "fish" },
+]
