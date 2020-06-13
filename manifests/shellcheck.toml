@@ -1,0 +1,18 @@
+[info]
+name = "shellcheck"
+version = "0.7.1"
+url = "https://github.com/koalaman/shellcheck"
+license = "GPL-3.0"
+
+[discover]
+binary = "shellcheck"
+version_check.args = ["--version"]
+version_check.pattern = "version: (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/koalaman/shellcheck/releases/download/v0.7.1/shellcheck-v0.7.1.linux.x86_64.tar.xz"
+checksums.b2 = "dce108606eaca97b720c90efb6070d571b95c7f8ece02cde00fd991566135bb10daa6b1190bc04d92eb37ea6af60e55615c3198c7cc7d6bf89b411e877c83df1"
+files = [
+    { source = "shellcheck-v0.7.1/shellcheck", type= "bin" },
+    # TODO: manpage, see https://github.com/koalaman/shellcheck/issues/1987
+]
