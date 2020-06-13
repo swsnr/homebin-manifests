@@ -1,0 +1,25 @@
+[info]
+name = "exa"
+version = "0.9.0"
+url = "https://github.com/ogham/exa"
+license = "MIT"
+
+[discover]
+binary = "exa"
+version_check.args = ["--version"]
+version_check.pattern = "exa v(\\d\\S+)"
+
+[[install]]
+download = "https://github.com/ogham/exa/releases/download/v0.9.0/exa-linux-x86_64-0.9.0.zip"
+checksums.b2 = "e689f4ffa78948173164c8b6762de47359ee6e53c2922ddc3ec7cfc8164ff84458798e7f736610ab11f5fb6565c8ac648ee950f167cef79123c1d7123f217aae"
+files = [
+    { source = "exa-linux-x86_64", name = "exa", type = "binary" },
+]
+
+[[install]]
+download = "https://github.com/ogham/exa/archive/v0.9.0.tar.gz"
+checksums.b2 = "79319085cec312ca04e490a455ad0dd921f3ee6ab16d537f0085dd4fb525212a59ff65619e166b64ff605ddecf5fc44d3945543503816491d3962e8004da8818"
+files = [
+    { source = "exa-0.9.0/contrib/man/exa.1", type = "man", section = 1 },
+    { source = "exa-0.9.0/contrib/completions.fish", name = "exa.fish", type = "completion", shell = "fish" },
+]
