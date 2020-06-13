@@ -1,0 +1,23 @@
+[info]
+name = "jq"
+version = "1.6"
+url = "https://github.com/stedolan/jq"
+license = "MIT"
+
+[discover]
+binary = "jq"
+version_check.args = ["--version"]
+version_check.pattern = "jq-(\\d\\S+)"
+
+[[install]]
+download = "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64"
+checksums.b2 = "d08b0756d6a6c021c20610f184de2117827d4aeb28ce87a245a1fc6ee836ef42a3ffd3a31811ea4360361d4a63d6729baf328ac024a68545974de9f6b709733c"
+name = "jq"
+type = "bin"
+
+[[install]]
+download = "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-1.6.tar.gz"
+checksums.b2 = "c9be1314e9d027247de63492ee362e996ef85faf45a47ee421cad95ebde9188bff8d3fc7db64e717ab922e1052f3b1c1500f5589fc5b2199ab66effb000e442d"
+files = [
+    { source = "jq-1.6/jq.1.prebuilt", name = "jq.1", type = "man", section = 1 }
+]
