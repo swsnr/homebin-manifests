@@ -11,12 +11,12 @@ version_check.pattern = "(\\d\\S+)"
 
 [[install]]
 download = "https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.06/youtube-dl"
-checksums.b2 = "735247ea043fb8433a18844d29bebd72202d75ae9433a7fe1d51d5af65a24cb43d7a09900bbe397017940015ed5b8910f7536c7ed496a4518ab48e1522eab25d"
+checksums.sha512 = "50a419d218773568b659cdf5a63ba3703d33a08a215f72e643f470741a2bc81477a5ee920e760447d7745669b6ee9d96ff8de6feb3b12a3c3c7bd527778af210"
 type = "bin"
 
 [[install]]
 download = "https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.06/youtube-dl-2020.06.06.tar.gz"
-checksums.b2 = "0971a8f82eedf3dc6a635b90318586988ffc8a8219386e0eda8ca020fb9981ceabb4b708c0d90c38f5eab2c17daa98d73cead473e33a1ed27b726a087d9a57f7"
+checksums.sha512 = "b3c910f8b26a11e225cfdebc3612e04010e1af027bc48b88f0b8bd36ba83f10eaed05375cbc833b421da9b377152722aa74ab936ed238957165a6b5f0149589b"
 files = [
     { source = "youtube-dl/youtube-dl.1", type = "man", section = 1 },
     { source = "youtube-dl/youtube-dl.fish", type = "completion", shell = "fish" },
