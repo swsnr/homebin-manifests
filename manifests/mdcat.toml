@@ -1,0 +1,17 @@
+[info]
+name = "mdcat"
+version = "0.18.4"
+url = "https://github.com/lunaryorn/mdcat"
+license = "MPL-2.0"
+
+[discover]
+binary = "mdcat"
+version_check.args = ["--version"]
+version_check.pattern = "mdcat (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.18.4/mdcat-0.18.4-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "617f21052112fb48bb8c5c5b27f58764a8b8a51ec61ac62896ff91523ccc42e4889aaed5177b396d415cce4c28c5a2f67fb7db344db56ff596f2ce1f6e708430"
+files = [
+    { source = "mdcat-0.18.4-x86_64-unknown-linux-musl/mdcat", type = "bin" }
+]
