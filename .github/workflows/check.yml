@@ -1,0 +1,17 @@
+name: Check manifests
+
+on: [push, pull_request]
+
+jobs:
+  check-manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download homebins
+        shell: bash
+        run: |
+          tag_name="$(curl -sSL -H 'Accept: application/json' https://github.com/lunaryorn/homebins/releases/latest | jq -r .tag_name)"
+          curl -sSL --remote-name --remote-header-name "https://github.com/lunaryorn/homebins/releases/download/$tag_name/homebins"
+          chmod 700 ./homebins
+      - name: Check all manifests
+        run: ./homebins list manifests/*.toml
