@@ -1,0 +1,20 @@
+[info]
+name = "pandoc"
+version = "2.9.2.1"
+url = "https://pandoc.org"
+license = "GPL-2.0-or-later"
+
+[discover]
+binary = "pandoc"
+version_check.args = ["--version"]
+version_check.pattern = "pandoc (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-linux-amd64.tar.gz"
+checksums.b2 = "4c8130c62672dbae1d02640358a832fd03667a879e56fed474463ef1feff7dfc4ce553278444fb38fed6314eb27349b796a5e73f8702596ea895998ab54290ee"
+files = [
+    { source = "pandoc-2.9.2.1/bin/pandoc", type = "bin" },
+    { source = "pandoc-2.9.2.1/bin/pandoc-citeproc", type = "bin" },
+    { source = "pandoc-2.9.2.1/share/man/man1/pandoc.1.gz", type = "man", section = 1 },
+    { source = "pandoc-2.9.2.1/share/man/man1/pandoc-citeproc.1.gz", type = "man", section = 1 },
+]
