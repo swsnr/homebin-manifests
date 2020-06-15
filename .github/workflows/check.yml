@@ -14,4 +14,4 @@ jobs:
           curl -sSL --remote-name --remote-header-name "https://github.com/lunaryorn/homebins/releases/download/$tag_name/homebins"
           chmod 700 ./homebins
       - name: Check all manifests
-        run: ./homebins list manifests/*.toml
+        run: ./homebins manifest-list manifests/*.toml
