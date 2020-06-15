@@ -1,6 +1,6 @@
 [info]
 name = "homebins"
-version = "0.0.1"
+version = "0.0.2"
 url = "https://github.com/lunaryorn/homebins"
 license = "MPL-2.0"
 
@@ -10,8 +10,8 @@ version_check.args = ["--version"]
 version_check.pattern = "homebins (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/lunaryorn/homebins/releases/download/v0.0.1/homebins-v0.0.1-x86_64-unknown-linux-musl.tar.gz"
-checksums.b2 = "b62b9aff4ba481543903703a8154948c6eba9bb9202a5ecbfb73f1a19de4c5ad33b28411ca172f8b2988ec19ef87faaaa3897eff048191af85d8cdddc88380b0"
+download = "https://github.com/lunaryorn/homebins/releases/download/v0.0.2/homebins-v0.0.2-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "ec6186c25e35bc876a069a0d1915e95a4be6a2909cd182400b16bda52c142edda99496bfff85bd25fd3545868c2820792a66228ff13735d683a7e533394e3336"
 files = [
-    { source = "homebins-v0.0.1-x86_64-unknown-linux-musl/homebins", type = "bin" }
+    { source = "homebins-v0.0.2-x86_64-unknown-linux-musl/homebins", type = "bin" }
 ]
