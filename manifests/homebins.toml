@@ -11,7 +11,7 @@ version_check.pattern = "homebins (\\d\\S+)"
 
 [[install]]
 download = "https://github.com/lunaryorn/homebins/releases/download/v0.0.1/homebins-v0.0.1-x86_64-unknown-linux-musl.tar.gz"
-checksums.b2 = "44862c2ce46ccf17737b44e899017ec230323034faf2b7f819d0cd4fd7ad8aee353cf07ffe263a9577ebf681a0ce9a8316b03b1b611f0c46d7f11b0e2fa841db"
+checksums.b2 = "b62b9aff4ba481543903703a8154948c6eba9bb9202a5ecbfb73f1a19de4c5ad33b28411ca172f8b2988ec19ef87faaaa3897eff048191af85d8cdddc88380b0"
 files = [
     { source = "homebins-v0.0.1-x86_64-unknown-linux-musl/homebins", type = "bin" }
 ]
