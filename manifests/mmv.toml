@@ -1,0 +1,17 @@
+[info]
+name = "mmv"
+version = "0.1.1"
+url = "https://github.com/itchyny/mmv"
+license = "MIT"
+
+[discover]
+binary = "mmv"
+version_check.args = ["-version"]
+version_check.pattern = "mmv (\\d\\S+) \\("
+
+[[install]]
+download = "https://github.com/itchyny/mmv/releases/download/v0.1.1/mmv_v0.1.1_linux_amd64.tar.gz"
+checksums.b2 = "4c4b8baa128fe04dd754f0bdd813c3a3ba742c5c1e8c04158d62da02a9f82bc0a78f462f983d8e44c6baaf6787e9bb81292e2689cbf23306bbed468cd6bbaac9"
+files = [
+    { source = "mmv_v0.1.1_linux_amd64/mmv", type = "bin" }
+]
