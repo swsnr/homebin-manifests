@@ -1,0 +1,18 @@
+[info]
+name = "winetricks"
+version = "20200412"
+url = ""
+license = "LGPL-2.1"
+
+[discover]
+binary = "winetricks"
+version_check.args = ["--version"]
+version_check.pattern = "^(\\d+) -"
+
+[[install]]
+download = "https://github.com/Winetricks/winetricks/archive/20200412.tar.gz"
+checksums.b2 = "e29eba0c73ec0649523dac0f0efd145a5c9fe60d94ae98bc55ec430f511cc5bdf3149d87289973a85a373f2f91c3bd5521470853e06f5ec4af83fc810aa4fdc5"
+files = [
+  { source = "winetricks-20200412/src/winetricks", type = "bin" },
+  { source = "winetricks-20200412/src/winetricks.1", type = "manpage", section = 1 }
+]
