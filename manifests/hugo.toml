@@ -1,0 +1,17 @@
+[info]
+name = "hugo"
+version = "0.74.3"
+url = "https://gohugo.io/"
+license = "Apache-2.0"
+
+[discover]
+binary = "hugo"
+version_check.args = ["version"]
+version_check.pattern = "^Hugo Static Site Generator v(\\d[^-]+)-[^/]+ "
+
+[[install]]
+download = "https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.tar.gz"
+checksums.sha256 = "269482fff497051a7919da213efa29c7f59c000e51cf14c1d207ecf98d87bf33"
+files = [
+  { source = "hugo", type = "binary" }
+]
