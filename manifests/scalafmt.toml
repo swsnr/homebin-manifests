@@ -1,0 +1,17 @@
+[info]
+name = "scalafmt"
+version = "2.6.4"
+url = "https://scalameta.org/scalafmt/"
+license = "Apache-2.0"
+
+[discover]
+binary = "scalafmt"
+version_check.args = ["--version"]
+version_check.pattern = "scalafmt (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/scalameta/scalafmt/releases/download/v2.6.4/scalafmt-linux-musl.zip"
+checksums.b2 = "10c73c686aa7d31e8d92ed1e96a0f8a1da16e187f2f33f1a3c4d05bff3cfba0579fe5a6bea533ed2ab5edf7be9195eed6609c2f44acf03dec6f76a0093dd058a"
+files = [
+  { source = "scalafmt", type = "binary" }
+]
