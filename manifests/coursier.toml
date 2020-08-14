@@ -1,0 +1,16 @@
+[info]
+name = "coursier"
+url = "https://get-coursier.io"
+version = "2.0.0-RC6-24"
+license = "Apache-2.0"
+
+[discover]
+binary = "cs"
+version_check.args = ["--version"]
+version_check.pattern = "(\\S+)"
+
+[[install]]
+download = "https://raw.githubusercontent.com/coursier/launchers/ec144a78fe8becd9183e4848e706bc90692e2212/cs-x86_64-pc-linux"
+checksums.b2 = "902ac9d38285451bdeaed771bf52b02c88c450003746b19edea6a334e8d0400e436c34ef4ae125d3a3a254aaf7b884a582185c5d4891cba09b77914b9ed4e10a"
+name = "cs"
+type = "bin"
