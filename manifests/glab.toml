@@ -1,0 +1,17 @@
+[info]
+name = "glab"
+url = "https://github.com/profclems/glab"
+version = "1.9.1"
+license = "MIT"
+
+[discover]
+binary = "glab"
+version_check.args = ["--version"]
+version_check.pattern = "glab version (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/profclems/glab/releases/download/v1.9.1/glab_1.9.1_Linux_x86_64.tar.gz"
+checksums.sha256 = "7a0b5395e549de06692079f3f18dd45c9f7403f9047930d26e29aae5cf42eca4"
+files = [
+  { source = "glab", type = "binary" }
+]
