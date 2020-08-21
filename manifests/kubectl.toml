@@ -1,0 +1,16 @@
+[info]
+name = "kubectl"
+version = "1.18.8"
+url = "https://kubernetes.io/docs/reference/kubectl/overview/"
+license = "Apache-2.0"
+
+[discover]
+binary = "kubectl"
+version_check.args = ["version", "--client=true", "--short=true"]
+version_check.pattern = "Client Version: v(\\d\\S+)"
+
+[[install]]
+download = "https://storage.googleapis.com/kubernetes-release/release/v1.18.8/bin/linux/amd64/kubectl"
+checksums.sha256 = "a076f5eff0710de94d1eb77bee458ea43b8f4d9572bbb3a3aec1edf0dde0a3e7"
+name = "kubectl"
+type = "bin"
