@@ -1,6 +1,6 @@
 [info]
 name = "kubectl"
-version = "1.18.8"
+version = "1.19.0"
 url = "https://kubernetes.io/docs/reference/kubectl/overview/"
 license = "Apache-2.0"
 
@@ -10,7 +10,8 @@ version_check.args = ["version", "--client=true", "--short=true"]
 version_check.pattern = "Client Version: v(\\d\\S+)"
 
 [[install]]
-download = "https://storage.googleapis.com/kubernetes-release/release/v1.18.8/bin/linux/amd64/kubectl"
-checksums.sha256 = "a076f5eff0710de94d1eb77bee458ea43b8f4d9572bbb3a3aec1edf0dde0a3e7"
-name = "kubectl"
-type = "bin"
+download = "https://dl.k8s.io/v1.19.0/kubernetes-client-linux-amd64.tar.gz"
+checksums.sha512 = "1590d4357136a71a70172e32820c4a68430d1b94cf0ac941ea17695fbe0c5440d13e26e24a2e9ebdd360c231d4cd16ffffbbe5b577c898c78f7ebdc1d8d00fa3"
+files = [
+  { source = "kubernetes/client/bin/kubectl", type = "bin" }
+]
