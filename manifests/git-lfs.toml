@@ -1,0 +1,17 @@
+[info]
+name = "git-lfs"
+version = "2.12.0"
+license = "MIT"
+url = "https://git-lfs.github.com/"
+
+[discover]
+binary = "git-lfs"
+version_check.args = ["version"]
+version_check.pattern = "git-lfs/(\\d\\S+)"
+
+[[install]]
+download = "https://github.com/git-lfs/git-lfs/releases/download/v2.12.0/git-lfs-linux-amd64-v2.12.0.tar.gz"
+checksums.sha256 = "f9befd0fa0b19517b8ed14ab07812f0d39d776d8c9ea0023e343e30ff300813f"
+files = [
+  { source = "git-lfs", type = "binary" }
+]
