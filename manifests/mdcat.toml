@@ -13,6 +13,6 @@ version_check.pattern = "mdcat (\\d\\S+)"
 download = "https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.21.1/mdcat-0.21.1-x86_64-unknown-linux-musl.tar.gz"
 checksums.b2 = "9558c55d310aeb2247c50d79da898ba711eb1147d50e0a53e18815efdaa89c19f5a41033349015800e45d9fec6fc42fb5a8e280f42e17a25fe844a934f7bfcf1"
 files = [
-  { source = "mdcat-0.21.1-x86_64-unknown-linux-musl/mdcat", type = "bin" },
+  { source = "mdcat-0.21.1-x86_64-unknown-linux-musl/mdcat", type = "bin", links=["mdless"] },
   { source = "mdcat-0.21.1-x86_64-unknown-linux-musl/completions/mdcat.fish", type = "completion", shell = "fish" },
 ]
