@@ -1,0 +1,16 @@
+[info]
+name = "sd"
+version = "0.7.6"
+url = "https://github.com/chmln/sd"
+license = "MIT"
+
+[discover]
+binary = "sd"
+version_check.args = ["--version"]
+version_check.pattern = "sd (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/chmln/sd/releases/download/v0.7.6/sd-v0.7.6-x86_64-unknown-linux-musl"
+checksums.b2 = "2ef8c51c4b7263792fe0fcaa64fc47d7a928bfe460293ba977743ccfe23e818558114308b8bff2d67cace57719ae978d12e3d157c5422b1aacbb57cfdf7e7eb7"
+type = "binary"
+name = "sd"
