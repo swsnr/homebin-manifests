@@ -1,6 +1,6 @@
 [info]
 name = "hugo-extended"
-version = "0.74.3"
+version = "0.75.0"
 url = "https://gohugo.io/"
 license = "Apache-2.0"
 
@@ -10,8 +10,8 @@ version_check.args = ["version"]
 version_check.pattern = "^Hugo Static Site Generator v(\\d[^-]+)-[^/]+/extended "
 
 [[install]]
-download = "https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_extended_0.74.3_linux-64bit.tar.gz"
-checksums.sha256 = "f9aadb70d1edb2a82cefb866acb717ebaa12f3a7f008e589495a142567669b57"
+download = "https://github.com/gohugoio/hugo/releases/download/v0.75.0/hugo_extended_0.75.0_linux-64bit.tar.gz"
+checksums.sha256 = "f2cd128b877b15f695fbd64167cf1b414849886113845228a8247ca54a6acf13"
 files = [
   { source = "hugo", type = "binary" }
 ]
