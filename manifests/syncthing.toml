@@ -1,0 +1,40 @@
+[info]
+name = "syncthing"
+version = "1.9.0"
+url = "https://syncthing.net/"
+license = "MPL-2.0"
+
+[discover]
+binary = "syncthing"
+version_check.args = ["--version"]
+version_check.pattern = "syncthing v(\\d\\S+)"
+
+[[install]]
+download = "https://github.com/syncthing/syncthing/releases/download/v1.9.0/syncthing-linux-amd64-v1.9.0.tar.gz"
+checksums.sha256 = "b28d4d1451799d04c063271154935f92e797eea9b3caa789db95f1e805d0854c"
+files = [
+  { source = "syncthing-linux-amd64-v1.9.0/syncthing", type = "binary" },
+  { source = "syncthing-linux-amd64-v1.9.0/etc/linux-systemd/user/syncthing.service", type = "systemd_user_unit" },
+]
+
+[[install]]
+download = "https://github.com/syncthing/syncthing/archive/v1.9.0.tar.gz"
+checksums.b2 = "cb849cce6baf481d2f9d5c7885c3afa56ed192134be2a012c87942ce362cfb7b42aaf5251213493017816db0bd81df88fc2def3c7f3ef6256781b5384448fae6"
+files = [
+  { source = "syncthing-1.9.0/man/stdiscosrv.1", type = "man", section = 1 },
+  { source = "syncthing-1.9.0/man/strelaysrv.1", type = "man", section = 1 },
+  { source = "syncthing-1.9.0/man/syncthing-bep.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-config.5", type = "man", section = 5 },
+  { source = "syncthing-1.9.0/man/syncthing-device-ids.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-event-api.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-faq.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-globaldisco.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-localdisco.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-networking.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-relay.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-rest-api.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-security.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing-stignore.5", type = "man", section = 5 },
+  { source = "syncthing-1.9.0/man/syncthing-versioning.7", type = "man", section = 7 },
+  { source = "syncthing-1.9.0/man/syncthing.1", type = "man", section = 1 },
+]
