@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: curl -sSL --remote-name --remote-header-name "https://github.com/lunaryorn/homebins/releases/download/v0.0.4/homebins"
+      - run: curl -sSL --remote-name --remote-header-name "https://github.com/lunaryorn/homebins/releases/download/v0.1.0/homebins"
       - run: chmod 700 ./homebins
       - run: ./homebins manifest-list manifests/*.toml
