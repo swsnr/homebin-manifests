@@ -1,6 +1,6 @@
 [info]
 name = "vivid"
-version = "0.5.0"
+version = "0.6.0"
 url = "https://github.com/sharkdp/vivid"
 license = "MIT OR Apache-2.0"
 
@@ -10,9 +10,8 @@ version_check.args = ["--version"]
 version_check.pattern = "vivid (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/sharkdp/vivid/releases/download/v0.5.0/vivid-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
-checksums.b2 = "251d1b1317b82cf8a1be3649577a6b83c1e2be19d5a8f60e3bc91aa8997bb67ff8eccf257c5e8c8b015aaf77b74a7658c7e8d81b1ef83a778a7d631bf395e45f"
+download = "https://github.com/sharkdp/vivid/releases/download/v0.6.0/vivid-v0.6.0-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "0ecb66bcb6468f409014c41bc6ec9660dcb8204b0092abe0c80f408ec45112d501fcf990782fa8dda5dd715a5b10f8a6529315ba8498221f257509da09688fd4"
 files = [
-    { source = "vivid-v0.5.0-x86_64-unknown-linux-musl/vivid", type = "bin" },
-    # TODO: Assets
+    { source = "vivid-v0.6.0-x86_64-unknown-linux-musl/vivid", type = "bin" },
 ]
