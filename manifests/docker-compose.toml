@@ -1,0 +1,16 @@
+[info]
+name = "docker-compose"
+url = "https://github.com/docker/compose"
+version = "1.27.4"
+license = "Apache-2.0"
+
+[discover]
+binary = "docker-compose"
+version_check.args = ["version"]
+version_check.pattern = "docker-compose version (\\d\\S+),"
+
+[[install]]
+download = "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-Linux-x86_64"
+checksums.sha256 = "04216d65ce0cd3c27223eab035abfeb20a8bef20259398e3b9d9aa8de633286d"
+type = "binary"
+name = "docker-compose"
