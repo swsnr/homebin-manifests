@@ -1,0 +1,17 @@
+[info]
+name = "vagrant"
+version = "2.2.10"
+url = "https://www.vagrantup.com"
+license = "MIT"
+
+[discover]
+binary = "vagrant"
+version_check.args = ["--version"]
+version_check.pattern = "Vagrant (\\d\\S+)"
+
+[[install]]
+download = "https://releases.hashicorp.com/vagrant/2.2.10/vagrant_2.2.10_linux_amd64.zip"
+checksums.sha256 = "4d3358abae81459ffda06699d7589b708b508f8711e3f2ff6fabd5ce89c0e7b0"
+files = [
+  { source = "vagrant", type = "binary" }
+]
