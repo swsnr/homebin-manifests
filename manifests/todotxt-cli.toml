@@ -1,0 +1,17 @@
+[info]
+name = "todotxt-cli"
+version = "2.12.0"
+url = "https://github.com/todotxt/todo.txt-cli"
+license = "GPL-3.0"
+
+[discover]
+binary = "todo.sh"
+version_check.args = ["-V"]
+version_check.pattern = "TODO.TXT Command Line Interface v(\\d\\S+)"
+
+[[install]]
+download = "https://github.com/todotxt/todo.txt-cli/releases/download/v2.12.0/todo.txt_cli-2.12.0.tar.gz"
+checksums.b2 = "106bc7008650ca0fde14493964903fc9c49ad9e68748b0c4aed2714543f915147b651349a4754494988e3d78a17ec7bbc925a10a5938c8b764a0d1022b9cfbb1"
+files = [
+    { source = "todo.txt_cli-2.12.0/todo.sh", type = "binary" }
+]

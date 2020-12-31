@@ -1,0 +1,17 @@
+[info]
+name = "nb"
+version = "5.7.8"
+url = "https://github.com/xwmx/nb"
+license = "AGPL-3.0"
+
+[discover]
+binary = "nb"
+version_check.args = ["--version"]
+version_check.pattern = "(\\d\\S+)"
+
+[[install]]
+download = "https://github.com/xwmx/nb/archive/5.7.8.tar.gz"
+checksums.b2 = "3cd59a59394d1b64ca08af1139ed7b31e62174b1e547b6546d29691fb338e3127e3e8352830706998f9987d1983f93fc95812edf510627a3434f1e30c806e33a"
+files = [
+    { source = "nb-5.7.8/nb", type = "binary" }
+]
