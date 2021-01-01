@@ -1,6 +1,6 @@
 [info]
 name = "bandwhich"
-version = "0.15.0"
+version = "0.20.0"
 url = "https://github.com/imsnif/bandwhich"
 licence = "MIT"
 
@@ -10,15 +10,15 @@ version_check.args = ["--version"]
 version_check.pattern = "bandwhich (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/imsnif/bandwhich/releases/download/0.15.0/bandwhich-v0.15.0-x86_64-unknown-linux-musl.tar.gz"
-checksums.b2 = "c57c6d1856e5554f4d33583f73ddcc35ddebbd4f552b62e742e3fd4cf5b73abdec6d1fec549e4ed433178b44fc6fc59c94675f2d3782ad882756f8364aee58ec"
+download = "https://github.com/imsnif/bandwhich/releases/download/0.20.0/bandwhich-v0.20.0-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "e5562f3a6fc8876773020b1bf9ea5ea94b5740156de0165da5f0dc3550fe8595f70d12d6b46815b80068db0e7d5eb5f1e9918c63a6b2d20b86c5aa496ab6dcb7"
 files = [
     { source = "bandwhich", type = "bin" },
 ]
 
 [[install]]
-download = "https://github.com/imsnif/bandwhich/archive/0.15.0.tar.gz"
-checksums.b2 = "5daf3e994d723ab16202a9dbb6fa5f246a5ee73bb7cfc0ee71ef1d6e463196c1a6c8e34575b23a11f11b02a710a014f6e683029960a8ee6a382360a174c92ecf"
+download = "https://github.com/imsnif/bandwhich/archive/0.20.0.tar.gz"
+checksums.b2 = "d2809660b09d1b02bbf8b2b8719406b49064275202af422fc32fa2add34ffc04d748073b6a51c827662418292c0e10c0aa3ca3955e5317e3a0015c25e15755ec"
 files = [
-    { source = "bandwhich-0.15.0/docs/bandwhich.1", type = "man", section = 1 },
+    { source = "bandwhich-0.20.0/docs/bandwhich.1", type = "man", section = 1 },
 ]

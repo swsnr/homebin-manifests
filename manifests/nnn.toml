@@ -1,6 +1,6 @@
 [info]
 name = "nnn"
-version = "3.2"
+version = "3.5"
 url = "https://github.com/jarun/nnn"
 license = "BSD-2-Clause"
 
@@ -10,15 +10,15 @@ version_check.args = ["-V"]
 version_check.pattern = "^(\\d\\S+)"
 
 [[install]]
-download = "https://github.com/jarun/nnn/releases/download/v3.2/nnn-static-3.2.x86-64.tar.gz"
-checksums.b2 = "8d3c036fab2747012bdfa781792b23e164419dc909e5e34d5904f1dac65fb3f5a18552171288758d7d93244720dee9fe2ec7bfce2972273ba7ce3eb87eb9a467"
+download = "https://github.com/jarun/nnn/releases/download/v3.5/nnn-static-3.5.x86_64.tar.gz"
+checksums.b2 = "cff976e65e1291b5f0dd49f2d98b6c0d1d1fd30bf914cba5f7f64c8c80f913a11d2721b7f6b1bf2db08cd69969f14363937b93e1e074dad10ef1d44706255a2f"
 files = [
     { source = "nnn-static", type = "bin", name = "nnn" },
 ]
 
 [[install]]
-download = "https://github.com/jarun/nnn/releases/download/v3.2/nnn-v3.2.tar.gz"
-checksums.b2 = "1d5cb823d274e0ca8d15be75a6df149697d81abd5c60a4b7c6335317d77f5a071b917e3322b618924ad792defe3333d38e58fda0195bc0ed79bf72df371171b5"
+download = "https://github.com/jarun/nnn/releases/download/v3.5/nnn-v3.5.tar.gz"
+checksums.b2 = "4c49fb0feb4f04075fd64d0b42643256cceec84185df2fa78d5d1fc04177b446b443ea3843434d844206ebc120820ff97b33f7703a76aed85af044f14f985621"
 files = [
-    { source = "nnn-3.2/nnn.1", type = "man", section = 1 }
+    { source = "nnn-3.5/nnn.1", type = "man", section = 1 }
 ]

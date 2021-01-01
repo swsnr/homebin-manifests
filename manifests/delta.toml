@@ -1,6 +1,6 @@
 [info]
 name = "delta"
-version = "0.1.1"
+version = "0.5.0"
 url = "https://github.com/dandavison/delta"
 license = "MIT"
 
@@ -10,8 +10,8 @@ version_check.args = ["--version"]
 version_check.pattern = "delta (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/dandavison/delta/releases/download/0.1.1/delta-0.1.1-x86_64-unknown-linux-musl.tar.gz"
-checksums.b2 = "f67cdf8f346a2d54f03e91cd1cf268746afbc2a65b8de628fe034752371474924e4ca376adda39769cc35b9b51c9f36aa22bb4ac7b1b828ecd6fae571f7dcc5f"
+download = "https://github.com/dandavison/delta/releases/download/0.5.0/delta-0.5.0-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "b3a2e6378ca465c3ecf6e51e1d5450da1d7958b8085ef36c8279283bbdde6e05d1c08d02be55cc6c3b679e2701b5d450eb1128180b2e84925a5169312aca2e15"
 files = [
-    { source = "delta-0.1.1-x86_64-unknown-linux-musl/delta", type = "bin" }
+    { source = "delta-0.5.0-x86_64-unknown-linux-musl/delta", type = "bin" }
 ]

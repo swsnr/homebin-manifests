@@ -1,6 +1,6 @@
 [info]
 name = "fd"
-version = "8.1.1"
+version = "8.2.1"
 url = "https://github.com/sharkdp/fd"
 license = "MIT OR Apache-2.0"
 
@@ -10,10 +10,10 @@ version_check.args = ["--version"]
 version_check.pattern = "fd (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/sharkdp/fd/releases/download/v8.1.1/fd-v8.1.1-x86_64-unknown-linux-musl.tar.gz"
-checksums.b2 = "6282bd0a7e4eea71a142a1e2da671d3312f9e9c3e3cdad6f9014d145247f5bbed005f9f384d8acf32f0118961c5f7bd1639c2500d82a97d75070f5575dc008a1"
+download = "https://github.com/sharkdp/fd/releases/download/v8.2.1/fd-v8.2.1-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "724e3e7715fd02844ad1abd617493539c3b9d625432a099b39d836b2eb303114a6050c82250b0878ddb67461067264ba372f3e8ed81a2c591ae3117d9240ff61"
 files = [
-    { source = "fd-v8.1.1-x86_64-unknown-linux-musl/fd", type = "bin"},
-    { source = "fd-v8.1.1-x86_64-unknown-linux-musl/fd.1", type = "manpage", section = 1 },
-    { source = "fd-v8.1.1-x86_64-unknown-linux-musl/autocomplete/fd.fish", type = "completion", shell = "fish" },
+    { source = "fd-v8.2.1-x86_64-unknown-linux-musl/fd", type = "bin"},
+    { source = "fd-v8.2.1-x86_64-unknown-linux-musl/fd.1", type = "manpage", section = 1 },
+    { source = "fd-v8.2.1-x86_64-unknown-linux-musl/autocomplete/fd.fish", type = "completion", shell = "fish" },
 ]
