@@ -1,6 +1,6 @@
 [info]
 name = "oxipng"
-version = "4.0.0"
+version = "4.0.3"
 url = "https://github.com/shssoichiro/oxipng"
 license = "MIT"
 
@@ -10,8 +10,8 @@ version_check.args = ["--version"]
 version_check.pattern = "oxipng (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/shssoichiro/oxipng/releases/download/v4.0.0/oxipng-4.0.0-x86_64-unknown-linux-musl.tar.gz"
-checksums.b2 = "7af37b80098ae7a9e59aefa8f81aabe83b1dd176ab792cc849ae3dc346b258b89bc82a31cf582c7c7b1665a8148e59039520c239c73a1f1c82681edb71d79f89"
+download = "https://github.com/shssoichiro/oxipng/releases/download/v4.0.3/oxipng-4.0.3-x86_64-unknown-linux-musl.tar.gz"
+checksums.b2 = "f07be7510b99c25953fa36fa4b1eed9f3b688b1b6a30b06b6794f3cc242e38015ba81e8946c292e81d2e5fe2deb043fd9b680f28963cb41a4cd7803eb47c8315"
 files = [
-  { source = "oxipng-4.0.0-x86_64-unknown-linux-musl/oxipng", type = "binary" }
+  { source = "oxipng-4.0.3-x86_64-unknown-linux-musl/oxipng", type = "binary" }
 ]
