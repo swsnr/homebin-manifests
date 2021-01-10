@@ -1,6 +1,6 @@
 [info]
 name = "pandoc"
-version = "2.9.2.1"
+version = "2.11.3.2"
 url = "https://pandoc.org"
 license = "GPL-2.0-or-later"
 
@@ -10,11 +10,16 @@ version_check.args = ["--version"]
 version_check.pattern = "pandoc (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-linux-amd64.tar.gz"
-checksums.b2 = "4c8130c62672dbae1d02640358a832fd03667a879e56fed474463ef1feff7dfc4ce553278444fb38fed6314eb27349b796a5e73f8702596ea895998ab54290ee"
+download = "https://github.com/jgm/pandoc/releases/download/2.11.3.2/pandoc-2.11.3.2-linux-amd64.tar.gz"
+checksums.b2 = "763144b6bcbc0781e2f6237db2464353de6893c162be2c14f8a2dd388f8bfa1b1345e69474248ff04549f939b9337b5259332a0a7a3a9771cb85b7c7ab10fa4d"
 files = [
-    { source = "pandoc-2.9.2.1/bin/pandoc", type = "bin" },
-    { source = "pandoc-2.9.2.1/bin/pandoc-citeproc", type = "bin" },
-    { source = "pandoc-2.9.2.1/share/man/man1/pandoc.1.gz", type = "man", section = 1 },
-    { source = "pandoc-2.9.2.1/share/man/man1/pandoc-citeproc.1.gz", type = "man", section = 1 },
+    { source = "pandoc-2.11.3.2/bin/pandoc", type = "bin" },
+    { source = "pandoc-2.11.3.2/share/man/man1/pandoc.1.gz", type = "man", section = 1 },
+]
+
+[remove]
+additional_files = [
+    # Extra citeproc is gone in newer pandoc releases
+    { name = "pandoc-citeproc", type = "bin" },
+    { name = "pandoc-citeproc.1.gz", type = "man", section = 1 }
 ]
