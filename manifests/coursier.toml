@@ -10,7 +10,7 @@ version_check.args = ["--version"]
 version_check.pattern = "(\\S+)"
 
 [[install]]
-download = "https://raw.githubusercontent.com/coursier/launchers/ec144a78fe8becd9183e4848e706bc90692e2212/cs-x86_64-pc-linux"
-checksums.b2 = "902ac9d38285451bdeaed771bf52b02c88c450003746b19edea6a334e8d0400e436c34ef4ae125d3a3a254aaf7b884a582185c5d4891cba09b77914b9ed4e10a"
+download = "https://raw.githubusercontent.com/coursier/launchers/d0d4a0b6d36f0878fabc86fb4dd3b77bfc3c00a5/cs-x86_64-pc-linux"
+checksums.b2 = "67f7be1b59314a4cfaa7024ab30a6d258c207ff436aaf7e3a4d3a3d98997696c014182b8be2bd71bfc82541ef9f716544811fcf59f138a056b1290b2e2b208b3"
 name = "cs"
 type = "bin"
