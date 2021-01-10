@@ -1,6 +1,6 @@
 [info]
 name = "youtube-dl"
-version = "2020.12.31"
+version = "2021.01.08"
 url = "https://github.com/ytdl-org/youtube-dl"
 license = "Unlicense"
 
@@ -10,13 +10,13 @@ version_check.args = ["--version"]
 version_check.pattern = "(\\d\\S+)"
 
 [[install]]
-download = "https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.31/youtube-dl"
-checksums.sha512 = "3fe6b2da8875cc1a5edb0e55f6aa8434a03dd00e9c0a309d60d173e7bd44254dbe5421bb8280d7c4020f50f2193c0bde94febca4f6987180c1d6df02e97fbabd"
+download = "https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.08/youtube-dl"
+checksums.sha512 = "5ca87d3118f6f642722bc8f05af77bf235450db67edc76ab1b362b46764df40eeda8192a5c154c4b7d5ffbb6d5a04da9367da1fadedc4466c41b4498d1e8dfac"
 type = "bin"
 
 [[install]]
-download = "https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.31/youtube-dl-2020.12.31.tar.gz"
-checksums.sha512 = "78c69648f40c99581a533bac0e1afa2339f5681a01278f9234ad8b6b3f0f1b29e21bb669d27d0a6f9bccae0e3be954b571261d1ab9a1e778f3f028c8795595b6"
+download = "https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.08/youtube-dl-2021.01.08.tar.gz"
+checksums.sha512 = "516c5ac6e0e4513e574771a9d39f643f077e18b408dc7b709b92ca99d2d72f15719b545d5f7598a3a1d5eaeae52efff283c42001ce8c846c019582490be8cac1"
 files = [
     { source = "youtube-dl/youtube-dl.1", type = "man", section = 1 },
     { source = "youtube-dl/youtube-dl.fish", type = "completion", shell = "fish" },
