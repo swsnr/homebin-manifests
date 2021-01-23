@@ -1,0 +1,17 @@
+[info]
+name = "hcloud"
+version = "1.20.0"
+url = "https://github.com/hetznercloud/cli/"
+license = "MIT"
+
+[discover]
+binary = "hcloud"
+version_check.args = ["version"]
+version_check.pattern = "hcloud (\\d\\S+)"
+
+[[install]]
+download = "https://github.com/hetznercloud/cli/releases/download/v1.20.0/hcloud-linux-amd64.tar.gz"
+checksums.sha256 = "fc318a6c08a1f2b070b32c27c8e4d92dde776a86e35cb9d2377dc10115cd0455"
+files = [
+  { source = "hcloud", type = "binary" }
+]
