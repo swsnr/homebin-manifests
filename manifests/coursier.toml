@@ -1,7 +1,7 @@
 [info]
 name = "coursier"
 url = "https://get-coursier.io"
-version = "2.0.0-RC6-24"
+version = "2.0.9"
 license = "Apache-2.0"
 
 [discover]
@@ -10,7 +10,7 @@ version_check.args = ["--version"]
 version_check.pattern = "(\\S+)"
 
 [[install]]
-download = "https://raw.githubusercontent.com/coursier/launchers/d0d4a0b6d36f0878fabc86fb4dd3b77bfc3c00a5/cs-x86_64-pc-linux"
-checksums.b2 = "67f7be1b59314a4cfaa7024ab30a6d258c207ff436aaf7e3a4d3a3d98997696c014182b8be2bd71bfc82541ef9f716544811fcf59f138a056b1290b2e2b208b3"
+download = "https://github.com/coursier/coursier/releases/download/v2.0.9/cs-amd64-pc-linux"
+checksums.b2 = "85be5578380da4c9873f88c668c65ed57e65f99cba31770d46b6ba741e7ba68866c4bfe648eba010e6e69f500f25fe7f1069c93ced593c5e836f1b944f486da5"
 name = "cs"
 type = "bin"
