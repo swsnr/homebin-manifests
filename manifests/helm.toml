@@ -1,6 +1,6 @@
 [info]
 name = "helm"
-version = "3.5.0"
+version = "3.5.1"
 url = "https://helm.sh"
 license = "Apache-2.0"
 
@@ -10,8 +10,8 @@ version_check.args = ["version", "--short"]
 version_check.pattern = "^v(\\d\\S+)\\+"
 
 [[install]]
-download = "https://get.helm.sh/helm-v3.5.0-linux-amd64.tar.gz"
-checksums.sha256 = "3fff0354d5fba4c73ebd5db59a59db72f8a5bbe1117a0b355b0c2983e98db95b"
+download = "https://get.helm.sh/helm-v3.5.1-linux-amd64.tar.gz"
+checksums.sha256 = "cad8f2f55a87cfd4d79312625c6af62c1e22eb1dab750f00aa1d394c601a2e6b"
 files = [
   { source = "linux-amd64/helm", type = "binary" }
 ]
