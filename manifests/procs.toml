@@ -1,6 +1,6 @@
 [info]
 name = "procs"
-version = "0.10.10"
+version = "0.11.2"
 url = "https://github.com/dalance/procs"
 licence = "MIT"
 
@@ -10,8 +10,8 @@ version_check.args = ["--version"]
 version_check.pattern = "procs \"(\\d\\S+)"
 
 [[install]]
-download = "https://github.com/dalance/procs/releases/download/v0.10.10/procs-v0.10.10-x86_64-lnx.zip"
-checksums.b2 = "43181c2b172e18c28ed1b57b37008d80d0839f7e5c6dc0cdc0d6ca8f963122c5aa043ea690fad05bab5d3ee041ff03b2e596abc7d6ec29b75708588c6778e1d9"
+download = "https://github.com/dalance/procs/releases/download/v0.11.2/procs-v0.11.2-x86_64-lnx.zip"
+checksums.b2 = "1f045b73b1591e04fd7f98c5d8eeae77733d263a894e78d8eb931a57709ac4aed59920946d6ca91197e185da83fd05aeaaf992fc203db3713a2a5a63c7b6f834"
 files = [
     { source = "procs", type = "binary" }
 ]
