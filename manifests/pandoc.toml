@@ -1,6 +1,6 @@
 [info]
 name = "pandoc"
-version = "2.11.3.2"
+version = "2.11.4"
 url = "https://pandoc.org"
 license = "GPL-2.0-or-later"
 
@@ -10,11 +10,11 @@ version_check.args = ["--version"]
 version_check.pattern = "pandoc (\\d\\S+)"
 
 [[install]]
-download = "https://github.com/jgm/pandoc/releases/download/2.11.3.2/pandoc-2.11.3.2-linux-amd64.tar.gz"
-checksums.b2 = "763144b6bcbc0781e2f6237db2464353de6893c162be2c14f8a2dd388f8bfa1b1345e69474248ff04549f939b9337b5259332a0a7a3a9771cb85b7c7ab10fa4d"
+download = "https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-linux-amd64.tar.gz"
+checksums.b2 = "a6e526b9650a7bcad5012790a14efbf8cbb17974b29a798b9d6d8b400554bd6aa2aa1b540313c2984d3ccd8f42cc63cc3850f159ac0f1fe3946bba0fe6733f44"
 files = [
-    { source = "pandoc-2.11.3.2/bin/pandoc", type = "bin" },
-    { source = "pandoc-2.11.3.2/share/man/man1/pandoc.1.gz", type = "man", section = 1 },
+    { source = "pandoc-2.11.4/bin/pandoc", type = "bin" },
+    { source = "pandoc-2.11.4/share/man/man1/pandoc.1.gz", type = "man", section = 1 },
 ]
 
 [remove]
