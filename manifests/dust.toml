@@ -1,0 +1,17 @@
+[info]
+name = "dust"
+version = "0.5.4"
+url = "https://github.com/bootandy/dust"
+license = "Apache-2.0"
+
+[discover]
+binary = "dust"
+version_check.args = []
+version_check.pattern = ""
+
+[[install]]
+download = "https://github.com/bootandy/dust/releases/download/v0.5.4/dust-v0.5.4-i686-unknown-linux-musl.tar.gz"
+checksums.b2 = "9ab369a5072d52e31c38fcf3b685dcea8916f64f0dee5f8519a2880800930bb8490e14e813f543a75dc5b1560c95e5077aea0b14c0f8f3955c0230c761537abc"
+files = [
+  { source = "dust-v0.5.4-i686-unknown-linux-musl/dust", type = "binary" }
+]
